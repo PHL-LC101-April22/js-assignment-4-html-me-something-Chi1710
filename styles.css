@@ -1,1 +1,44 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+}
+
+#mainHeading{
+    background-color: red;
+    color: white;
+}
+
+header {
+    padding: 1.875em 0;
+}
+
+header, h1, nav {
+    text-align: center;
+}
+
+#testP {
+    color: green;
+}
+
+.funParagraph {
+    color: green;
+}
+
+nav > ul {
+    list-style-type: none;
+    font-size: large;
+}
+
+h1, h2 {
+    background-color: #0f4d19 ;
+    color: #6fc27c;
+    font-size: 38px;
+}
+
+h1, h2, h3 {
+    font-style: italic;
+}
+
+
+
+
