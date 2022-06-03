@@ -2,24 +2,28 @@
 <html>
    <head>
       <title>My Go-To Recipes</title>
+      <link rel="stylesheet" href="styles.css">
    </head>
    <body>
       <Header>
-      <div class="nav">
-         <h1>This is my go-to Cantonese food recipes</h1>
+         <h1 id="mainHeading">This is my go-to Cantonese food recipes</h1>
+      <nav>
          <ul>
-      <li><a href="#section1" class="btn">Beef Chow Fun</a></li>
-      <li><a href="#section2" class="btn">Steamed Egg</a></li>
-      <li><a href="#section3" class="btn">Sweet Corn Pork Rib Soup</a></li>
+      <li><a href="#section1">Beef Chow Fun</a></li>
+      <li><a href="#section2">Steamed Egg</a></li>
+      <li><a href="#section3">Sweet Corn Pork Rib Soup</a></li>
          </ul>
-      </div>
+      </nav>
       </header>
       <main>
       <article>
-         <div class="section one" id="section1">
+         <section>
+         <a name="section one"></a>
             <h2>Beef Chow Fun Recipes</h2>
+            <figure>
             <img src="https://thewoksoflife.com/wp-content/uploads/2019/11/beef-chow-fun-17.jpg" alt="Beef Chow Fun">
-
+         </figure>
+         <div>
 <h3> Main ingredients</h3>
 <ul>
 <li>10 oz flank steak</li>
@@ -59,7 +63,7 @@
 <h3> Steps</h3>
 <ol>
    <li>Cut & wash beef</li>
-      <p>Cut your flank steak (10 oz) into medium or 1/4 inch slices. Once cut, put the meat into a room-temperature water bath to rinse out the myoglobin.</p>
+      <p id="testP">Cut your flank steak (10 oz) into medium or 1/4 inch slices. Once cut, put the meat into a room-temperature water bath to rinse out the myoglobin.</p>
    <li>Prepare vegetables</li>
       <p>Peel and thinly slice the yellow onion (0.50 ) into 1/4 inch thickness. Wash the bean sprouts (1 handful), drain, and set aside. Wash and chop the green onions (3 stems) into 1 inch long pieces. Use all of the green onions and separate the white parts from the green parts.</p>
    <li>Create Beef marinade</li>
@@ -78,11 +82,16 @@
    <p>Add the beef and mix. Turn off the heat and add the sesame oil</p>
 </ol>
 </div>
+</section>
 
-         <div class="section two" id="section2">
+<section>
+         <a name="section two"></a>
             <h2>Steamed Egg Recipes</h2>
+            <figure>
             <img src="https://www.theworktop.com/wp-content/uploads/2018/05/Chinese-Steamed-Egg-2.jpg" alt="Steamed Egg">
-             <h3>Main Ingredients</h3>
+            </figure> 
+            <div>
+            <h3>Main Ingredients</h3>
              <ul>
                 <li>4 egg</li>
                 <li>2 cup warm water</li>
@@ -95,7 +104,7 @@
              <h3>Steps</h3>
              <ol>
                 <li>Cut green onion</li>
-                  <p>Chop the green onions to be added as garnish at the end</p>
+                  <p class="funParagraph">Chop the green onions to be added as garnish at the end</p>
                <li>Boil water in the wok</li>
                   <p>Place the steamer rack in the wok and place your bowl on top of the rack. Pour enough water so that the bowl is about half way submerged in the wok. Take the bowl out, and place lid on the wok. Let the warer come to boil.</p>
                <li>Start mixing eggs</li>
@@ -111,10 +120,16 @@
                <li>Remove bowl from wok</li>
                   <p>Depending on how much clearance you have, put on oven mitts and carefully life the bowl out of the wok.</p>   
                </ol>
-         </div>
-         <div class="section three" id="section3">
+            </div>
+            </section>
+
+         <section>
+         <a class="section three"></a>
             <h2>Sweet Corn Pork Rib Soup Recipes</h2>
+            <figure>
             <img src="https://whattocooktoday.com/wp-content/uploads/2019/10/sweet-corn-pork-ribs-soup-7.jpg" alt="Sweet corn pork rib soup">
+            </figure>
+            <div>
             <h3>Main Ingredients</h3>
             <ul>
                <li>2 Sweet Corn</li>
@@ -137,6 +152,7 @@
             
             </ol>
          </div>
+         </section>
 
       </article>
       </main>
